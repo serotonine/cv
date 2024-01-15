@@ -79,10 +79,10 @@ Git // SVN
 
 ## COURSES & TRAININGS
 
-- [The Complete JavaScript Course 2024: From Zero to Expert!] (https://www.udemy.com/course/the-complete-javascript-course/)
+- [The Complete JavaScript Course 2024: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/)
 - Front-end developer 25/02 > 31/08/2015 Technocité, Mons CSS3
   HTML5 - Javascript - Sass- jQuery - AngularJS - NodeJS
-- 2013 > 2016 [Cartoon / illustration training] (https://www.acasaintgilles.be/bd-illustration/)
+- 2013 > 2016 [Cartoon / illustration training](https://www.acasaintgilles.be/bd-illustration/)
 - Nederlands level 2.3 09/2014 > 05/2015 CVO, Brussels
 - Linux 15/01 > 17/01/2013 Brussels Training
 - Drupal 7 advanced 15/12 > 17/12/2013 Brussels Training
@@ -95,24 +95,12 @@ Git // SVN
 - DNEP, Art Academy 06/1993 Montpellier
 - Baccalaureat 06/1985 Toulouse Economy section
 
----
+## SPEAKING LANGUAGES
 
-Freelance Trainer
-2004 > 2005
-Adobe Creative Suite, Action Script
-• Groupe Avenir, Toulouse
-• Adhara formation, Toulouse • SYGMASOFT, Nivelles
-
----
-
----
-
-## LANGUAGES
-
-French native || English fluent || Italiano fluent Nederlands zakelijke kennis
+French native || English fluent || Italiano fluent || Nederlands zakelijke kennis
 
 ---
 
 ## INFOS ++
 
-Drawing Practice on a regular basis - technological watch
+Drawing Practice on a regular basis - technological watch - [Transcendental meditation](https://www.tm.org/)
