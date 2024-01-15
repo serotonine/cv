@@ -4,7 +4,6 @@
 
 1, Géo Bernier Avenue, 1050 Brussels
 Phone: 0484 785 809
-Email: julie.danjou@gmail.com
 
 ---
 
@@ -95,4 +94,4 @@ French native || English fluent || Italiano fluent Nederlands zakelijke kennis
 
 ## INFOS ++
 
-Drawing Practice on a regular basis - technological watch
+Drawing Practice on a regular basis - technological watchgit init
