@@ -1,0 +1,22 @@
+/* BREAK AFTER */
+/* #career-path > .section__item:first-child {
+  page-break-after: always;
+} */
+
+#courses-trainings > .section__wrapper > div:nth-of-type(4),
+#courses-trainings > .section__wrapper > div:nth-of-type(5),
+#courses-trainings > .section__wrapper > div:nth-of-type(8),
+#courses-trainings > .section__wrapper > div:nth-of-type(9),
+#courses-trainings > .section__wrapper > div:nth-of-type(10),
+#career-path > .section__wrapper > div:nth-of-type(4),
+#career-path > .section__wrapper > div:last-of-type {
+  display: none;
+}
+
+#career-path > .section__wrapper > div:nth-of-type(5),
+#career-path > .section__wrapper > div:nth-of-type(6) {
+  border-bottom: none;
+}
+#career-path > .section__wrapper > div:nth-of-type(6) {
+  padding-top: 5rem;
+}
