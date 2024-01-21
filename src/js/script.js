@@ -55,8 +55,17 @@ const renderItemDescription = function (desc) {
     : `<p>${desc}</p>`;
 };
 const renderMenu = function (cv) {
-  const sections = cv.map((el) => el.section);
-  console.log(`sections`, sections);
+  const markup = cv
+    .map((el) => {
+      const target = renderSectionId(el.section);
+      const section = el.section.trim().replaceAll("<br/>", "");
+      return `<li class='menu__item'><a href='#${target}'>${el.section
+        .trim()
+        .replaceAll("<br/>", "&nbsp;")}</a></li>`;
+    })
+    .join(``);
+  const menus = document.querySelectorAll(".menu > ul");
+  menus.forEach((menu) => menu.insertAdjacentHTML("afterbegin", markup));
 };
 const renderSectionId = function (section = "") {
   return section
@@ -66,8 +75,25 @@ const renderSectionId = function (section = "") {
     .replaceAll("<br/>", "")
     .replaceAll("&amp;", "");
 };
+const handlerMenu = function () {
+  const menus = document.querySelectorAll(".menu");
+  menus.forEach((menu) => {
+    menu.addEventListener("click", (e) => {
+      e.preventDefault();
+      if (e.target.hasAttribute("href")) {
+        const target = document.querySelector(
+          e.target.getAttribute("href")
+        ).offsetTop;
+        console.dir(target);
+        scrollTo({ top: target - 100, behavior: "smooth" });
+      }
+    });
+  });
+};
+
 //// INIT ////
 (function () {
   render(cv);
   renderMenu(cv);
+  handlerMenu();
 })();

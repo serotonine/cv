@@ -6,7 +6,7 @@
   --bp-medium: 61.25em;
   --bp-small: 37.5em;
   --bp-smallest: 31.25em;
-  --page-width: 900px;
+  --page-width-lg: 900px;
 }
 
 * {
@@ -42,7 +42,7 @@ main {
   border-radius: 2rem;
   background-color: #fff;
   padding: 2rem 3rem;
-  max-width: var(--page-width);
+  max-width: var(--page-width-lg);
   margin: 0 auto;
 }
 
@@ -96,14 +96,6 @@ header:first-of-type {
 .cv__address {
   align-self: end;
 }
-/* MENU */
-.menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: var(--page-width);
-  color: #fff;
-}
 /* GRID */
 header:first-of-type,
 section,
@@ -131,18 +123,51 @@ header {
 /* BACKGROUND COLOR */
 .wrapper {
   background-color: var(--red);
+  padding-top: 2.5rem;
 }
 /* SECTIONS */
 .section__item {
   padding: 1rem 0;
 }
-
 .section__wrapper > .section__item:not(:last-child) {
   border-bottom: 2px dashed var(--grey-dash);
 }
 .section__wrapper > .section__item:first-child {
   padding-top: 0;
 }
+/* MENU */
+.menu {
+  width: var(--page-width-lg);
+  position: fixed;
+  padding: 0 2rem;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--red);
+}
+
+.menu:last-child {
+  padding-top: 1rem;
+}
+.menu > ul {
+  padding-top: 1rem;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.menu__item > a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rokkitt", serif;
+  font-weight: 600;
+  line-height: 0;
+}
+.menu__item > a:hover,
+.menu__item > a:focus {
+  text-decoration: underline;
+}
+
 /* UTILITIES */
 .separator {
   white-space: nowrap;
@@ -155,4 +180,45 @@ header {
 .address {
   font-style: italic;
   font-size: 1.6rem;
+}
+.rounded {
+  position: relative;
+  height: 2rem;
+}
+.rounded > div {
+  position: absolute;
+  top: 2rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--red);
+}
+.rounded > div > div {
+  background-color: #fff;
+  width: 3rem;
+  height: 3rem;
+}
+.rounded__left {
+  left: -2rem;
+}
+.rounded__left > div {
+  border-radius: 2rem 0 0 0;
+}
+.rounded__right {
+  right: -2rem;
+}
+.rounded__right > div {
+  border-radius: 0 2rem 0 0;
+}
+
+.back-to-top > span:first-of-type::before {
+  border-style: solid;
+  border-width: 0.25em 0.25em 0 0;
+  content: "";
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  position: relative;
+  top: 0.15em;
+  transform: rotate(-45deg);
+  vertical-align: top;
 }
