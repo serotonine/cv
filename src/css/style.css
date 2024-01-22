@@ -2,10 +2,6 @@
   --red: #b7272e;
   --body: #4d5156;
   --grey-dash: #b2b3b4;
-  --bp-sm: 576px;
-  --pb-md: 768px;
-  --pb-lg: 992px;
-  --pb-xl: 1200px;
   --page-width-lg: 900px;
 }
 
@@ -23,10 +19,6 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-
-  @media only screen and (max-width: $bp-medium) {
-    font-size: 50%;
-  }
 }
 
 body {
@@ -38,6 +30,7 @@ body {
   min-height: calc(100vh - 2 * 4vw);
   padding: 3rem 2rem;
 }
+
 main {
   border-radius: 2rem;
   background-color: #fff;
@@ -92,6 +85,7 @@ li {
   padding-left: 1.28571429em;
   text-indent: -1.28571429em;
 }
+
 /* HEADER */
 header:first-of-type {
   padding-bottom: 2rem;
@@ -108,8 +102,8 @@ header:first-of-type {
 .wrapper {
   background-color: var(--red);
 }
-/* SECTIONS */
 
+/* SECTIONS */
 .section__item {
   padding: 1rem 0;
 }
@@ -215,6 +209,7 @@ h4 > br {
 .rounded__right > div {
   border-radius: 0 2rem 0 0;
 }
+
 /* MEDIAS QUERIES */
 @media (min-width: 768px) {
   h3 {
