@@ -1,15 +1,11 @@
-import cv from "./cv.json" assert { type: "json" };
+//import cv from "./cv.json" assert { type: "json" };
 
 const main = document.querySelector("main");
 
 const render = function (cv) {
-  /*  if (Array.isArray(cv)) {
-    throw new Error("cv is not an array");
-  } */
   const datas = JSON.parse(JSON.stringify(cv));
 
   datas.forEach((data) => {
-    // console.log(`data`, data);
     main.insertAdjacentHTML("beforeend", renderSection(data));
   });
 };
@@ -80,20 +76,45 @@ const handlerMenu = function () {
   menus.forEach((menu) => {
     menu.addEventListener("click", (e) => {
       e.preventDefault();
+      // LINKS
       if (e.target.hasAttribute("href")) {
-        const target = document.querySelector(
-          e.target.getAttribute("href")
-        ).offsetTop;
-        console.dir(target);
-        scrollTo({ top: target - 100, behavior: "smooth" });
+        const target = document.querySelector(e.target.getAttribute("href"));
+        setActiveMenuItem(e.target);
+        toogleMenuBurger();
+        const coordY = target.offsetTop;
+        scrollTo({ top: coordY - 100, behavior: "smooth" });
+      }
+      // MENU BURGER
+      if (e.target.closest(".menu__burger")) {
+        toogleMenuBurger();
       }
     });
   });
 };
-
+const setActiveMenuItem = function (trigger) {
+  const menuItems = document.querySelectorAll(".menu__item");
+  menuItems.forEach((item) => {
+    item.classList.remove("active");
+  });
+  console.log(trigger);
+  trigger.classList.add("active");
+};
+const toogleMenuBurger = function () {
+  ["closed", "open"].forEach((classe) =>
+    document.querySelector(".menu__burger").classList.toggle(classe)
+  );
+};
 //// INIT ////
 (function () {
-  render(cv);
-  renderMenu(cv);
-  handlerMenu();
+  try {
+    fetch("./src/js/cv.json")
+      .then((res) => res.json())
+      .then((cv) => {
+        render(cv);
+        renderMenu(cv);
+        handlerMenu();
+      });
+  } catch (e) {
+    console.log(`Error`, e.message);
+  }
 })();

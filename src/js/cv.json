@@ -10,14 +10,14 @@
         ]
       },
       {
-        "title": "CMS<br/>&amp; e-commerce",
+        "title": "CMS <br/>&amp; e-commerce",
         "subtitle": "",
         "description": [
           "<strong>Drupal 7 > 10</strong> || Magento || WordPress"
         ]
       },
       {
-        "title": "Frameworks, Libraries<br/>& pre-processors",
+        "title": "Frameworks, Libraries <br/>& pre-processors",
         "subtitle": "",
         "description": ["jQuery || Twig || Drush || Bootstrap || Sass"]
       },
@@ -39,14 +39,14 @@
     "section": "Certifications",
     "items": [
       {
-        "title": "Acquia<br/>Certified Developer",
+        "title": "Acquia <br/>Certified Developer",
         "subtitle": "10/04/2023",
         "description": [
           "<a target='_blank' href='https://serotonine.alwaysdata.net/cv/certifications/1130_5_28519_1681123723_Developer_Certification.pdf'>See the certification</a>"
         ]
       },
       {
-        "title": "Acquia<br/>Certified Site Builder",
+        "title": "Acquia <br/>Certified Site Builder",
         "subtitle": "02/02/2023",
         "description": [
           "<a target='_blank' href='https://serotonine.alwaysdata.net/cv/certifications/1129_5_28519_1677415675_Sitebuilder_Certification.pdf'>See the certification</a>"
@@ -58,21 +58,21 @@
     "section": "Career path",
     "items": [
       {
-        "title": "Drupal<br/>Full-stack Developer",
+        "title": "Drupal <br/>Full-stack Developer",
         "subtitle": "08/07/2018 > 20/10/2023",
         "description": [
           "<strong>European Commission DG DIGIT D.1</strong><ul><li><strong>Drupal 7 > 10:</strong> implementation,  customisation & maintenance,</li><li>new functionalities Mockups,</li><li>user guide redaction.</li></ul>"
         ]
       },
       {
-        "title": "Drupal<br/>Free-lance Developer",
+        "title": "Drupal <br/>Free-lance Developer",
         "subtitle": "01/04/2017 > 08/07/2018",
         "description": [
           "<ul><li>Search module refactoring + maintenance (D7)<br/>https://cetaf.org</li><li>From B to Z (D8). Design by (in)extenso.<br/>https://www.escale-onderweg.org</li></ul>"
         ]
       },
       {
-        "title": "PHP & Drupal<br/>Full-stack Developer",
+        "title": "PHP & Drupal <br/>Full-stack Developer",
         "subtitle": "10/11/2016 > 30/09/2017",
         "description": [
           "Improvements || maintenance || server switch<br/><span class='address'>Espace Catastrophe - 18 rue de la Glacière - Brussels 1060.</span>"
@@ -86,7 +86,7 @@
         ]
       },
       {
-        "title": "Magento & Drupal<br/>Back-end Developer ",
+        "title": "Magento & Drupal <br/>Back-end Developer ",
         "subtitle": "2012 > 2014",
         "description": [
           "Implementation || Customisation.<ul><li>www.veritas.be</li> <li>www.essentiel-antwerp.be</li><li>www.flandersdrive.be</li></ul><span class='address'>Uniway, 12 Lenneke Marelaan Sint-Stevens-Woluwe 1932.</span>"
@@ -115,13 +115,13 @@
   },
 
   {
-    "section": "Courses<br/>&amp; trainings",
+    "section": "Courses <br/>&amp; trainings",
     "items": [
       {
         "title": "JavaScript 2024",
         "subtitle": "11/2023 > 01/2024",
         "description": [
-          "<a href='https://www.udemy.com/course/the-complete-javascript-course'>Udemy: The Complete JavaScript Course 2024;<br/>from Zero to Expert!</a><br/><a href='https://659c0d726f131f0b56a6cb26--forkify-miam.netlify.app/'>Miam</a>"
+          "<a href='https://www.udemy.com/course/the-complete-javascript-course'>Udemy: The Complete JavaScript Course 2024;<br/>from Zero to Expert!</a><ul><li><a href='https://659c0d726f131f0b56a6cb26--forkify-miam.netlify.app/'>Miam</a></li></ul>"
         ]
       },
       {
