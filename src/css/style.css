@@ -278,7 +278,7 @@ h4 > br {
   }
   .menu > ul,
   .menu > ul {
-    padding-top: 1rem;
+    padding-top: 2rem;
     justify-content: space-between;
     line-height: inherit;
   }
